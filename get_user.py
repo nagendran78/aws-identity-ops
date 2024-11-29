@@ -5,9 +5,9 @@ Description: Retrieve User from "AWS-IAM Identity Center" and Export to CSV
 
 import boto3
 import uuid
-from library import users
 from library import common
 from library import export_users
+from library.users import users
 
 # AWS Payer CLI Profile name
 aws_profile_name            = '' 
