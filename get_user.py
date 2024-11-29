@@ -1,6 +1,6 @@
 """
 Author: nagendran.s
-Description: Retrieve Userd from "AWS-IAM Identity Center" and Export to CSV 
+Description: Retrieve User from "AWS-IAM Identity Center" and Export to CSV 
 """
 
 import boto3
@@ -10,10 +10,10 @@ from library import common
 from library import export_users
 
 # AWS Payer CLI Profile name
-aws_profile_name            = '' 
+aws_profile_name            = 'jenkinsla4readonly-payer' 
 
 # IAM Identity Center - Store ID
-identity_centre_store_id    = ''
+identity_centre_store_id    = 'd-90671f8438'
 
 #Output File Name
 output_file_name            = "users-" + uuid.uuid4().hex + ".csv"
