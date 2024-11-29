@@ -18,10 +18,6 @@ Modules:
 - common: Contains utility functions used across the project.
 - export_users: Handles exporting user data to various formats.
 - groups: Contains Groups related operations.
-
-Usage:
-Import specific function or modules as needed:
-    from library.groups import group_user
 """
 
 # library/__init__.py
@@ -29,8 +25,6 @@ Import specific function or modules as needed:
 from .users import list_users
 from .common import clear_screen
 from .export_users import export_users_to_csv
-from .groups import get_groups_for_user
 
 # Specifying explicity Public API that should be exposed
-__all__ = ["list_users", "clear_screen", "export_users_to_csv",
-            "get_groups_for_user"] 
+__all__ = ["list_users", "clear_screen", "export_users_to_csv"] 
