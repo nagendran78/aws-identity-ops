@@ -7,10 +7,10 @@ import boto3
 from library.groups import group_user
 
 # AWS Payer CLI Profile name
-aws_profile_name            = 'jenkinsla4readonly-payer' 
+aws_profile_name            = '' 
 
 # IAM Identity Center - Store ID
-identity_centre_store_id    = 'd-90671f8438'
+identity_centre_store_id    = ''
 
 
 # Method Execution Section

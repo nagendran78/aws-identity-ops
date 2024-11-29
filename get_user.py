@@ -10,10 +10,10 @@ from library import common
 from library import export_users
 
 # AWS Payer CLI Profile name
-aws_profile_name            = 'jenkinsla4readonly-payer' 
+aws_profile_name            = '' 
 
 # IAM Identity Center - Store ID
-identity_centre_store_id    = 'd-90671f8438'
+identity_centre_store_id    = ''
 
 #Output File Name
 output_file_name            = "users-" + uuid.uuid4().hex + ".csv"
