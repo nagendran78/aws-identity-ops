@@ -11,13 +11,17 @@ Exposed API:
 - list_users: Retrieve the list of users from AWS Identity Center.
 - clear_screen: Clears the console screen.
 - export_users_to_csv: Exports user data to a CSV output file.
-- get_groups_for_user: Retrieve Groups based on users from AWS Identity Center. 
+- get_groups_for_user: Retrieve Groups for a specific user from AWS Identity Center.
 
 Modules:
 - users: Contains user-related operations.
 - common: Contains utility functions used across the project.
 - export_users: Handles exporting user data to various formats.
 - groups: Contains Groups related operations.
+
+Usage:
+Import specific function or modules as needed:
+    from library.groups import group_user
 """
 
 # library/__init__.py
