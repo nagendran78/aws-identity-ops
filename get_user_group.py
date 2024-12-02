@@ -4,7 +4,7 @@ Description: Retrieve Group info based on UserID from "AWS-IAM Identity Center"
 """
 
 import boto3
-from library.groups import group_user
+from src.groups import group_user
 
 # AWS Payer CLI Profile name
 aws_profile_name            = '' 

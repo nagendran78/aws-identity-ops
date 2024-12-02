@@ -14,12 +14,13 @@ Modules:
 
 Usage:
 Import specific function or modules as needed:
-    from library.groups import group_user
+    from src.groups import group_user
 """
 
-# library/groups/__init__.py
+# src/groups/__init__.py
 # Import specific function
 from .group_user import get_groups_for_user
 
 # Specifying explicity Public API that should be exposed
-__all__ = ["get_groups_for_user"] 
+__all__ = ["get_groups_for_user"]
+print("Initializing groups package...")
