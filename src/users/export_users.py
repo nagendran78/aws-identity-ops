@@ -1,7 +1,6 @@
 """
 Author: nagendran.s
-Description: Script to Retrieve Users from "AWS-IAM Identity Center"
-             using IdentityStore.Client class from Boto3
+Description: Script to export users data to CSV file
 """
 
 import csv

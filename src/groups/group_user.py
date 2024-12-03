@@ -14,6 +14,7 @@ def get_groups_for_user(identity_store_id: str, identitystore_client: boto3.clie
 
     Args:
         identity_store_id (str): The ID of the Identity Store.
+        identitystore_client (boto3.client): The initialized Identity Store client.
         user_id (str): The ID of the user.
 
     Returns:

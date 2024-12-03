@@ -33,7 +33,7 @@ if __name__ == "__main__":
     #for user in users:
     #    print(user)
 
-    # Execute users to CSV
+    # Export Users data to CSV
     export_users.export_users_to_csv(users, output_file_name)
 
     #Notify the process has been completed.
