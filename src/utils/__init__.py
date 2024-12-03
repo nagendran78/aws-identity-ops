@@ -10,7 +10,7 @@ Exposed API:
 - clear_screen: Clear Screen at CLI.
 
 Modules:
-- common: Handles common utility functions 
+- common: Handles common utility functions.
 
 Usage:
 Import specific function or modules as needed:

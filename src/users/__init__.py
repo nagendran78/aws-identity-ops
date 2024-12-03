@@ -11,7 +11,7 @@ Exposed API:
 - export_users_to_csv: Export list of users to CSV file format.
 
 Modules:
-- users: Handles retrieval of all Users
+- users: Handles retrieval of all Users.
 
 Usage:
 Import specific function or modules as needed:
