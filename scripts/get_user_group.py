@@ -4,6 +4,11 @@ Description: Retrieve Group info based on UserID from "AWS-IAM Identity Center"
 """
 
 import boto3
+
+# Add the project root to sys.path
+from bootstrap import setup_project_path
+setup_project_path()
+
 from src.groups import group_user
 
 # AWS Payer CLI Profile name

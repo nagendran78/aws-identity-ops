@@ -6,6 +6,11 @@ Description: Retrieve All the Groups and Users associated to it
 
 import boto3
 import uuid
+
+# Add the project root to sys.path
+from bootstrap import setup_project_path
+setup_project_path()
+
 from src.groups import all_group
 from src.groups import export_groups
 
