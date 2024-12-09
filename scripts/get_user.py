@@ -5,6 +5,13 @@ Description: Retrieve User from "AWS-IAM Identity Center" and Export to CSV
 
 import boto3
 import uuid
+import os
+import sys
+
+# Add the project root to sys.path
+from bootstrap import setup_project_path
+setup_project_path()
+
 from src.utils import common
 from src.users import users
 from src.users import export_users
@@ -37,6 +44,5 @@ if __name__ == "__main__":
     export_users.export_users_to_csv(users, output_file_name)
 
     #Notify the process has been completed.
-    common.clear_screen() 
+    #common.clear_screen() 
     print(f"Completed fetching Users", "\U0001F60E")
-    print(f"Output File Name: {output_file_name}")
